@@ -28,5 +28,8 @@ def main ():
 
     except ValueError:
         print("Please enter valid numerical values for weight and height.")
+        
+if __name__ == "__main__":
+    main()
 
         
