@@ -6,9 +6,9 @@ This is a simple command-line Body Mass Index (BMI) Calculator written in Python
 
 # Features
 
-Calculates BMI using the formula: BMI = weight (kg) / (height (m)²)
+1)Calculates BMI using the formula: BMI = weight (kg) / (height (m)²)
 
-Categorizes BMI into:
+2)Categorizes BMI into:
 
     Underweight: BMI < 18.5
 
@@ -18,8 +18,8 @@ Categorizes BMI into:
 
     Obese: BMI ≥ 30
 
-Handles invalid inputs (e.g., non-numerical values, negative or zero values)
+3)Handles invalid inputs (e.g., non-numerical values, negative or zero values)
 
-Displays BMI rounded to one decimal place
+4)Displays BMI rounded to one decimal place
 
-Simple and modular code structure
+5)Simple and modular code structure
