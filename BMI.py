@@ -19,4 +19,14 @@ def main ():
         if weight <= 0 or Height <= 0:
             print("Weight and Height must be a positive numbers. ")
             return
+        BMI = caluculate_bmi(weight, Height)
+
+        category = get_bmi_category(BMI)
+
+        print(f"\nYour BMI is: {BMI:.1f}")
+        print(f"You are classified as: {category}")
+
+    except ValueError:
+        print("Please enter valid numerical values for weight and height.")
+
         
